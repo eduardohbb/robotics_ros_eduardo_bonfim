@@ -1,2 +1,6 @@
-# robotics_ros_eduardo_bonfim
-Repositório destinado ao aprendizado de ROS e Docker ministrado pelo projeto Sonho do Mobile Robotics Group
+# Bem-vindos ao meu repositório de ROS e Docker!
+Repositório destinado para Docker e ROS.
+
+**Aluno:** Eduardo Henrique Barrens Bonfim
+**N-USP:** 16984787
+**email:** edu.bonfim@usp.br
