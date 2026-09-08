@@ -1,0 +1,4 @@
+Invoking command in '/home/host/ros_ws/src/projeto1/build/robot_calc_velocity': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/host/ros_ws/src/projeto1/build/robot_calc_velocity -- -j12 -l12
+Invoked command in '/home/host/ros_ws/src/projeto1/build/robot_calc_velocity' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/host/ros_ws/src/projeto1/build/robot_calc_velocity -- -j12 -l12
+Invoking command in '/home/host/ros_ws/src/projeto1/build/robot_calc_velocity': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/host/ros_ws/src/projeto1/build/robot_calc_velocity
+Invoked command in '/home/host/ros_ws/src/projeto1/build/robot_calc_velocity' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/host/ros_ws/src/projeto1/build/robot_calc_velocity

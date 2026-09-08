@@ -1,0 +1,16 @@
+/home/host/ros_ws/src/projeto1/install/robot_calc_velocity/lib/robot_calc_velocity/controller
+/home/host/ros_ws/src/projeto1/install/robot_calc_velocity/share/ament_index/resource_index/package_run_dependencies/robot_calc_velocity
+/home/host/ros_ws/src/projeto1/install/robot_calc_velocity/share/ament_index/resource_index/parent_prefix_path/robot_calc_velocity
+/home/host/ros_ws/src/projeto1/install/robot_calc_velocity/share/robot_calc_velocity/environment/ament_prefix_path.sh
+/home/host/ros_ws/src/projeto1/install/robot_calc_velocity/share/robot_calc_velocity/environment/ament_prefix_path.dsv
+/home/host/ros_ws/src/projeto1/install/robot_calc_velocity/share/robot_calc_velocity/environment/path.sh
+/home/host/ros_ws/src/projeto1/install/robot_calc_velocity/share/robot_calc_velocity/environment/path.dsv
+/home/host/ros_ws/src/projeto1/install/robot_calc_velocity/share/robot_calc_velocity/local_setup.bash
+/home/host/ros_ws/src/projeto1/install/robot_calc_velocity/share/robot_calc_velocity/local_setup.sh
+/home/host/ros_ws/src/projeto1/install/robot_calc_velocity/share/robot_calc_velocity/local_setup.zsh
+/home/host/ros_ws/src/projeto1/install/robot_calc_velocity/share/robot_calc_velocity/local_setup.dsv
+/home/host/ros_ws/src/projeto1/install/robot_calc_velocity/share/robot_calc_velocity/package.dsv
+/home/host/ros_ws/src/projeto1/install/robot_calc_velocity/share/ament_index/resource_index/packages/robot_calc_velocity
+/home/host/ros_ws/src/projeto1/install/robot_calc_velocity/share/robot_calc_velocity/cmake/robot_calc_velocityConfig.cmake
+/home/host/ros_ws/src/projeto1/install/robot_calc_velocity/share/robot_calc_velocity/cmake/robot_calc_velocityConfig-version.cmake
+/home/host/ros_ws/src/projeto1/install/robot_calc_velocity/share/robot_calc_velocity/package.xml

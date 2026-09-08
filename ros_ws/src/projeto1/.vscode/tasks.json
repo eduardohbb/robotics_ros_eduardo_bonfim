@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "colcon build",
+      "type": "shell",
+      "command": "source /opt/ros/jazzy/setup.bash && colcon build --symlink-install --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON",
+      "problemMatcher": []
+    },
+    {
+      "label": "merge compile_commands",
+      "type": "shell",
+      "command": "find ${workspaceFolder}/build -name compile_commands.json -exec cat {} + | jq -s 'add | unique_by(.file)' > ${workspaceFolder}/.vscode/compile_commands.json",
+      "problemMatcher": []
+    },
+    {
+      "label": "build + merge",
+      "dependsOrder": "sequence",
+      "dependsOn": ["colcon build", "merge compile_commands"],
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": []
+    }
+  ]
+}

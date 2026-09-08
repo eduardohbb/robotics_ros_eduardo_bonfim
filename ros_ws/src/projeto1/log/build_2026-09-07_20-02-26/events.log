@@ -1,0 +1,132 @@
+[0.000000] (-) TimerEvent: {}
+[0.000490] (robot_calc_velocity) JobQueued: {'identifier': 'robot_calc_velocity', 'dependencies': OrderedDict()}
+[0.000654] (robot_calc_velocity) JobStarted: {'identifier': 'robot_calc_velocity'}
+[0.007049] (robot_calc_velocity) JobProgress: {'identifier': 'robot_calc_velocity', 'progress': 'cmake'}
+[0.007457] (robot_calc_velocity) JobProgress: {'identifier': 'robot_calc_velocity', 'progress': 'build'}
+[0.007881] (robot_calc_velocity) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/host/ros_ws/src/projeto1/build/robot_calc_velocity', '--', '-j12', '-l12'], 'cwd': '/home/host/ros_ws/src/projeto1/build/robot_calc_velocity', 'env': OrderedDict({'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'pop-os', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/host', 'OLDPWD': '/home/host/ros_ws', 'ROS_PYTHON_VERSION': '3', 'PS1': '(ROS_ID=$ROS_DOMAIN_ID) \\u@\\h:\\w$', 'COLCON_PREFIX_PATH': '/home/host/ros_ws/src/projeto1/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/host/ros_ws/src/projeto1/install/robot_calc_velocity:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/host/ros_ws/src/projeto1/build/robot_calc_velocity', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/host/ros_ws/src/projeto1/install/robot_calc_velocity:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.031340] (robot_calc_velocity) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099742] (-) TimerEvent: {}
+[0.191851] (robot_calc_velocity) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.199823] (-) TimerEvent: {}
+[0.200005] (robot_calc_velocity) StdoutLine: {'line': b'-- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.252402] (robot_calc_velocity) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.267599] (robot_calc_velocity) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.285728] (robot_calc_velocity) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.299954] (-) TimerEvent: {}
+[0.305389] (robot_calc_velocity) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.399988] (robot_calc_velocity) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.400168] (-) TimerEvent: {}
+[0.405811] (robot_calc_velocity) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500265] (-) TimerEvent: {}
+[0.506808] (robot_calc_velocity) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[0.523644] (robot_calc_velocity) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[0.542577] (robot_calc_velocity) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.600354] (-) TimerEvent: {}
+[0.620429] (robot_calc_velocity) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.652600] (robot_calc_velocity) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.700431] (-) TimerEvent: {}
+[0.721766] (robot_calc_velocity) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.721911] (robot_calc_velocity) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/host/ros_ws/src/projeto1/robot_calc_velocity/include>\n'}
+[0.721967] (robot_calc_velocity) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.722228] (robot_calc_velocity) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.722744] (robot_calc_velocity) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.722918] (robot_calc_velocity) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.723046] (robot_calc_velocity) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.723741] (robot_calc_velocity) StdoutLine: {'line': b'-- Configuring done (0.7s)\n'}
+[0.731590] (robot_calc_velocity) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.734778] (robot_calc_velocity) StdoutLine: {'line': b'-- Build files have been written to: /home/host/ros_ws/src/projeto1/build/robot_calc_velocity\n'}
+[0.770090] (robot_calc_velocity) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/controller.dir/src/controller.cpp.o\x1b[0m\n'}
+[0.800564] (-) TimerEvent: {}
+[0.900833] (-) TimerEvent: {}
+[1.001120] (-) TimerEvent: {}
+[1.101380] (-) TimerEvent: {}
+[1.201749] (-) TimerEvent: {}
+[1.302126] (-) TimerEvent: {}
+[1.402371] (-) TimerEvent: {}
+[1.502621] (-) TimerEvent: {}
+[1.602895] (-) TimerEvent: {}
+[1.703190] (-) TimerEvent: {}
+[1.803506] (-) TimerEvent: {}
+[1.903877] (-) TimerEvent: {}
+[2.004134] (-) TimerEvent: {}
+[2.104403] (-) TimerEvent: {}
+[2.204774] (-) TimerEvent: {}
+[2.305149] (-) TimerEvent: {}
+[2.405515] (-) TimerEvent: {}
+[2.505882] (-) TimerEvent: {}
+[2.606260] (-) TimerEvent: {}
+[2.706636] (-) TimerEvent: {}
+[2.806889] (-) TimerEvent: {}
+[2.907242] (-) TimerEvent: {}
+[3.007522] (-) TimerEvent: {}
+[3.107814] (-) TimerEvent: {}
+[3.208063] (-) TimerEvent: {}
+[3.308289] (-) TimerEvent: {}
+[3.408528] (-) TimerEvent: {}
+[3.508765] (-) TimerEvent: {}
+[3.609005] (-) TimerEvent: {}
+[3.709215] (-) TimerEvent: {}
+[3.809422] (-) TimerEvent: {}
+[3.909627] (-) TimerEvent: {}
+[4.009867] (-) TimerEvent: {}
+[4.110129] (-) TimerEvent: {}
+[4.210335] (-) TimerEvent: {}
+[4.310574] (-) TimerEvent: {}
+[4.410791] (-) TimerEvent: {}
+[4.511040] (-) TimerEvent: {}
+[4.611272] (-) TimerEvent: {}
+[4.711500] (-) TimerEvent: {}
+[4.811737] (-) TimerEvent: {}
+[4.911966] (-) TimerEvent: {}
+[5.012154] (-) TimerEvent: {}
+[5.112358] (-) TimerEvent: {}
+[5.212615] (-) TimerEvent: {}
+[5.312821] (-) TimerEvent: {}
+[5.413057] (-) TimerEvent: {}
+[5.513332] (-) TimerEvent: {}
+[5.613575] (-) TimerEvent: {}
+[5.713817] (-) TimerEvent: {}
+[5.814122] (-) TimerEvent: {}
+[5.914333] (-) TimerEvent: {}
+[6.014535] (-) TimerEvent: {}
+[6.114772] (-) TimerEvent: {}
+[6.215091] (-) TimerEvent: {}
+[6.315425] (-) TimerEvent: {}
+[6.415667] (-) TimerEvent: {}
+[6.515972] (-) TimerEvent: {}
+[6.616189] (-) TimerEvent: {}
+[6.716400] (-) TimerEvent: {}
+[6.816643] (-) TimerEvent: {}
+[6.916890] (-) TimerEvent: {}
+[7.017203] (-) TimerEvent: {}
+[7.117493] (-) TimerEvent: {}
+[7.217747] (-) TimerEvent: {}
+[7.230712] (robot_calc_velocity) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable controller\x1b[0m\n'}
+[7.317859] (-) TimerEvent: {}
+[7.418286] (-) TimerEvent: {}
+[7.518678] (-) TimerEvent: {}
+[7.528402] (robot_calc_velocity) StdoutLine: {'line': b'[100%] Built target controller\n'}
+[7.537092] (robot_calc_velocity) CommandEnded: {'returncode': 0}
+[7.537559] (robot_calc_velocity) JobProgress: {'identifier': 'robot_calc_velocity', 'progress': 'install'}
+[7.546064] (robot_calc_velocity) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/host/ros_ws/src/projeto1/build/robot_calc_velocity'], 'cwd': '/home/host/ros_ws/src/projeto1/build/robot_calc_velocity', 'env': OrderedDict({'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'pop-os', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/host', 'OLDPWD': '/home/host/ros_ws', 'ROS_PYTHON_VERSION': '3', 'PS1': '(ROS_ID=$ROS_DOMAIN_ID) \\u@\\h:\\w$', 'COLCON_PREFIX_PATH': '/home/host/ros_ws/src/projeto1/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/host/ros_ws/src/projeto1/install/robot_calc_velocity:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/host/ros_ws/src/projeto1/build/robot_calc_velocity', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/host/ros_ws/src/projeto1/install/robot_calc_velocity:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[7.553099] (robot_calc_velocity) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.553318] (robot_calc_velocity) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.553535] (robot_calc_velocity) StdoutLine: {'line': b'-- Symlinking: /home/host/ros_ws/src/projeto1/install/robot_calc_velocity/lib/robot_calc_velocity/controller\n'}
+[7.560296] (robot_calc_velocity) StdoutLine: {'line': b'-- Up-to-date symlink: /home/host/ros_ws/src/projeto1/install/robot_calc_velocity/share/ament_index/resource_index/package_run_dependencies/robot_calc_velocity\n'}
+[7.560512] (robot_calc_velocity) StdoutLine: {'line': b'-- Up-to-date symlink: /home/host/ros_ws/src/projeto1/install/robot_calc_velocity/share/ament_index/resource_index/parent_prefix_path/robot_calc_velocity\n'}
+[7.560647] (robot_calc_velocity) StdoutLine: {'line': b'-- Up-to-date symlink: /home/host/ros_ws/src/projeto1/install/robot_calc_velocity/share/robot_calc_velocity/environment/ament_prefix_path.sh\n'}
+[7.560842] (robot_calc_velocity) StdoutLine: {'line': b'-- Up-to-date symlink: /home/host/ros_ws/src/projeto1/install/robot_calc_velocity/share/robot_calc_velocity/environment/ament_prefix_path.dsv\n'}
+[7.560998] (robot_calc_velocity) StdoutLine: {'line': b'-- Up-to-date symlink: /home/host/ros_ws/src/projeto1/install/robot_calc_velocity/share/robot_calc_velocity/environment/path.sh\n'}
+[7.561113] (robot_calc_velocity) StdoutLine: {'line': b'-- Up-to-date symlink: /home/host/ros_ws/src/projeto1/install/robot_calc_velocity/share/robot_calc_velocity/environment/path.dsv\n'}
+[7.561201] (robot_calc_velocity) StdoutLine: {'line': b'-- Up-to-date symlink: /home/host/ros_ws/src/projeto1/install/robot_calc_velocity/share/robot_calc_velocity/local_setup.bash\n'}
+[7.561282] (robot_calc_velocity) StdoutLine: {'line': b'-- Up-to-date symlink: /home/host/ros_ws/src/projeto1/install/robot_calc_velocity/share/robot_calc_velocity/local_setup.sh\n'}
+[7.561365] (robot_calc_velocity) StdoutLine: {'line': b'-- Up-to-date symlink: /home/host/ros_ws/src/projeto1/install/robot_calc_velocity/share/robot_calc_velocity/local_setup.zsh\n'}
+[7.561430] (robot_calc_velocity) StdoutLine: {'line': b'-- Up-to-date symlink: /home/host/ros_ws/src/projeto1/install/robot_calc_velocity/share/robot_calc_velocity/local_setup.dsv\n'}
+[7.561627] (robot_calc_velocity) StdoutLine: {'line': b'-- Symlinking: /home/host/ros_ws/src/projeto1/install/robot_calc_velocity/share/robot_calc_velocity/package.dsv\n'}
+[7.568338] (robot_calc_velocity) StdoutLine: {'line': b'-- Up-to-date symlink: /home/host/ros_ws/src/projeto1/install/robot_calc_velocity/share/ament_index/resource_index/packages/robot_calc_velocity\n'}
+[7.568532] (robot_calc_velocity) StdoutLine: {'line': b'-- Up-to-date symlink: /home/host/ros_ws/src/projeto1/install/robot_calc_velocity/share/robot_calc_velocity/cmake/robot_calc_velocityConfig.cmake\n'}
+[7.568632] (robot_calc_velocity) StdoutLine: {'line': b'-- Up-to-date symlink: /home/host/ros_ws/src/projeto1/install/robot_calc_velocity/share/robot_calc_velocity/cmake/robot_calc_velocityConfig-version.cmake\n'}
+[7.568726] (robot_calc_velocity) StdoutLine: {'line': b'-- Up-to-date symlink: /home/host/ros_ws/src/projeto1/install/robot_calc_velocity/share/robot_calc_velocity/package.xml\n'}
+[7.569610] (robot_calc_velocity) CommandEnded: {'returncode': 0}
+[7.582935] (robot_calc_velocity) JobEnded: {'identifier': 'robot_calc_velocity', 'rc': 0}
+[7.583432] (-) EventReactorShutdown: {}

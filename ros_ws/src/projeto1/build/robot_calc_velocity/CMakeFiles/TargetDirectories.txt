@@ -1,0 +1,10 @@
+/home/host/ros_ws/src/projeto1/build/robot_calc_velocity/CMakeFiles/uninstall.dir
+/home/host/ros_ws/src/projeto1/build/robot_calc_velocity/CMakeFiles/robot_calc_velocity_uninstall.dir
+/home/host/ros_ws/src/projeto1/build/robot_calc_velocity/CMakeFiles/controller.dir
+/home/host/ros_ws/src/projeto1/build/robot_calc_velocity/CMakeFiles/test.dir
+/home/host/ros_ws/src/projeto1/build/robot_calc_velocity/CMakeFiles/edit_cache.dir
+/home/host/ros_ws/src/projeto1/build/robot_calc_velocity/CMakeFiles/rebuild_cache.dir
+/home/host/ros_ws/src/projeto1/build/robot_calc_velocity/CMakeFiles/list_install_components.dir
+/home/host/ros_ws/src/projeto1/build/robot_calc_velocity/CMakeFiles/install.dir
+/home/host/ros_ws/src/projeto1/build/robot_calc_velocity/CMakeFiles/install/local.dir
+/home/host/ros_ws/src/projeto1/build/robot_calc_velocity/CMakeFiles/install/strip.dir

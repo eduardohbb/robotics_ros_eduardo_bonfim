@@ -1,0 +1,17 @@
+{
+  "configurations": [
+    {
+      "name": "linux-gcc-x64",
+      "compileCommands": "${workspaceFolder}/.vscode/compile_commands.json",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/opt/ros/jazzy/**"
+      ],
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "${default}",
+      "cppStandard": "${default}",
+      "intelliSenseMode": "linux-gcc-x64"
+    }
+  ],
+  "version": 4
+}
