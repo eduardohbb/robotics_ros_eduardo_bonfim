@@ -1,1 +1,0 @@
-/home/host/ros_ws/src/projeto1/build/robot_calc_velocity/ament_cmake_core/robot_calc_velocityConfig-version.cmake

@@ -1,1 +1,0 @@
-/home/host/ros_ws/src/projeto1/build/robot_calc_velocity/ament_cmake_environment_hooks/local_setup.zsh
