@@ -1,0 +1,8 @@
+cinematica_ackermann_node:
+  ros__parameters:
+    wheel_radius: 0.10
+    wheel_base: 0.30
+    track_width: 0.25
+    max_steering_angle: 0.50
+    timeout: 0.5
+    publish_per_second: 20.0

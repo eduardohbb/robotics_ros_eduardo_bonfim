@@ -1,0 +1,6 @@
+cinematica_diferencial_node:
+  ros__parameters:
+    wheel_radius: 0.10
+    wheel_separation: 0.50
+    timeout: 0.5
+    publish_per_second: 20.0

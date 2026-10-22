@@ -64,9 +64,19 @@
   "python.analysis.extraPaths": [
     "/opt/ros/jazzy/lib/python3.12/site-packages",
     "${workspaceFolder}/install/*/lib/python3.12/site-packages",
-    "${workspaceFolder}/install/*/local/lib/python3.12/dist-packages"
+    "${workspaceFolder}/install/*/local/lib/python3.12/dist-packages",
+        "${workspaceFolder}/install/*/lib/python3.12/site-packages",
+    "${workspaceFolder}/install/*/local/lib/python3.12/dist-packages",
+    "/opt/ros/jazzy/lib/python3.12/site-packages",
+    "/opt/ros/jazzy/local/lib/python3.12/dist-packages",       "/opt/ros/humble/lib/python3.10/site-packages",
+       "/opt/ros/humble/local/lib/python3.10/dist-packages",
+    "/usr/bin/python3",
+    "/opt/ros/jazzy/lib/python3.12/site-packages"
   ],
+  "python.analysis.useLibraryCodeForTypes": true,
   "editor.codeActionsOnSave": {
     "source.organizeImports": "explicit"
-  }
+  },
+  "cmake.sourceDirectory": "/home/dadaloq/robotics/robotics_ros_eduardo_bonfim/ros_ws/src/cinematica_ackermann",
+
 }
